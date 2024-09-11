@@ -317,6 +317,79 @@ header{
     width: 6%;
 }
 
+/*Mediaquerie Sobre nosotros*/
+
+@media (max-width: 992px){
+    .sobreNosotros1{
+        flex-direction: column;
+        height: 10%;
+        text-align: center;
+    }
+    .sobreNosotros1 img{
+        height: 30%;
+        width: 30%;
+        margin-left: 35%;
+    }
+    .sobreNosotros1 ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
+    }
+
+    .sobreNosotros2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobreNosotros2 img{
+        margin-left: 18%;
+    }
+
+    .sobreNosotros2 p{
+        text-align: center;
+    }
+
+    .sobreNosotros3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobreNosotros3 iframe{
+        width: 100%;
+    }
+
+    .sobreNosotros3 img{
+        margin-top: 5%;
+    }
+
+    .sobreNosotros4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerSobrenosotros{
+        flex-direction: column;
+    }
+
+    .footerSobrenosotros h3{
+        text-align: center;
+    }
+
+    .sobreNosotrosredes1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .sobreNosotrosredes1 img{
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+    }
+
+}
+
+
 /*LENGUA*/
 header{
     display: flex;
@@ -423,6 +496,86 @@ header{
 }
 
 
+/*Mediaquerie Lengua*/
+
+@media (max-width: 992px){
+    .headerLengua{
+        flex-direction: column;
+        height: 10%;
+        text-align: center;
+    }
+    .headerLengua img{
+        height: 30%;
+        width: 30%;
+        margin-left: 35%;
+    }
+    .headerLengua ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
+    }
+
+    .lengua0{
+        display: flex;
+        flex-direction: column;
+    }
+    .lengua0 img{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .Lengua1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10%;
+    }
+
+    .language2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .language2 iframe{
+        width: 100%;
+    }
+
+    .language3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .language3 img{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .footerLengua{
+        flex-direction: column;
+    }
+
+    .footerLengua h3{
+        text-align: center;
+    }
+
+    .footerLengua1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column
+    }
+
+    .footerLengua1 img{
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+    }
+
+}
+
+
 /*fonologia*/
 header{
     display: flex;
@@ -502,6 +655,91 @@ header{
 }
 
 .fonologia5 img{
+    width: 6%;
     height: 6%;
     width: 6%;
+}
+
+@media (max-width: 992px){
+    .headerFonologia{
+        flex-direction: column;
+        height: 10%;
+        text-align: center;
+    }
+    .headerFonologia img{
+        height: 30%;
+        width: 30%;
+        margin-left: 35%;
+    }
+    .headerFonologia ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
+    }
+
+    .fonologia1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fonologia1 img{
+        width: 90%;
+        margin-left: 2%
+    }
+
+    .fonologiaTeoria{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1%;
+    }
+
+    .fonologia2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .fonologia2 iframe{
+        width: 100%;
+    }
+
+    .fonologia3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .fonologia4{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .fonologia4 img {
+        width: 59%;
+        height: 30%;
+        margin-left: 20%;
+    }
+
+    .footerFonologia{
+        flex-direction: column;
+    }
+
+    .footerFonologia h3{
+        text-align: center;
+    }
+
+    .fonologia5{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column
+    }
+
+    .fonologia5 img{
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+    }
+
 }
