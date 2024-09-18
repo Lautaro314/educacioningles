@@ -151,6 +151,14 @@ header{
     margin-top: 1%;
 }
 
+.conteinerCrearcuenta{
+    background-color: white;
+}
+
+.conteinerCrearcuenta nav{
+    background-color: white;
+}
+
 .formulario{
     display: contents;
     color: black;
@@ -158,29 +166,26 @@ header{
     background-color: rgb(185, 228, 213)
 }
 
-.lista1{
-    border: none;
-    background-color: rgb(185, 228, 213)
+.conteiner{
+    width: 40%;
+    background-color: aquamarine;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
 }
 
-.lista2{
-    border: none;
-    background-color: rgb(185, 228, 213);
-}
-.lista3{
-    border: none;
-    background-color: rgb(185, 228, 213);
+.conteiner form{
+    margin: auto;
 }
 
-.lista4{
-    border: none;
-    background-color: rgb(185, 228, 213)
+.conteiner h2{
+    margin-left:15%;
+    margin-bottom: 2%;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.lista5{
-    border: none;
-    background-color: rgb(185, 228, 213);
-}
 
 .footerCuenta0{
     margin-top: 11%;
@@ -282,6 +287,10 @@ header{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 5%;
+}
+
+.sobrenosotrosArticle p{
+    width: 50%;
 }
 
 .sobreNosotros4 img{
