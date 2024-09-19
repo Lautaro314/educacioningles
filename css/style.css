@@ -37,6 +37,7 @@ a{
     text-decoration: none;
 }
 
+
 .inicioIndex{
     margin-top: 3%;
 }
@@ -44,6 +45,8 @@ a{
 .inicioIndex h2{
     color: black;
     text-align: center;
+    font-size: 300%;
+    background-color: aliceblue;
 }
 
 .inicioIndex img{
@@ -252,7 +255,8 @@ header{
 }
 
 .sorbrenosotros1 img{
-    height: 100px;
+    margin-right: 30px;
+    width: 300%;
 }
 
 .sobreNosotros1 h1{
@@ -262,17 +266,22 @@ header{
 .sobreNosotros2{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-left: 6%;
+    background-color: azure;
 }
 
 .sobreNosotros2 p{
     background-color: none;
     margin-top: 5%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5%;
 }
 
 .sobreNosotros2 img{
-    height: 60%;
-    width: 60%;
+    margin-right: 30px;
+    width: 300%;
 }
 
 .sobreNosotros3{
@@ -280,17 +289,28 @@ header{
     flex-direction: row;
     margin-top: 100px;
     justify-content: space-around;
+    margin-top: 15%;
+    background-color: bisque;
+    padding: 5%;
+}
+
+.sobreNosotros3 img{
+    width: 40%;
+    border-radius: 4%;
+}
+
+.sobreNosotros3 iframe{
+    width: 30%;
+    border-radius: 3%;
 }
 
 .sobreNosotros4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5%;
-}
-
-.sobrenosotrosArticle p{
-    width: 50%;
+    margin-top: 7%;
+    background-color: cornsilk;
+    padding: 5%;
 }
 
 .sobreNosotros4 img{
@@ -303,6 +323,10 @@ header{
 .sobreNosotros4 p{
     text-align: center;
     padding: 5px;
+    width: 50%;
+    font-size: 150%;
+    margin-left: 25%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .sobreNosotros4 h2{
@@ -311,7 +335,8 @@ header{
 
 .footerSobrenosotros{
     background-color:white;
-    border: none
+    border: none;
+    margin-top: 20%;
 }
 
 .sobreNosotrosredes1{
