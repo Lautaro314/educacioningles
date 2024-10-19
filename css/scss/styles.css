@@ -113,7 +113,7 @@
 }
 
 body {
-  background-image: linear-gradient(to left,white,#caf0f8);
+  background-color: #caf0f8;
 }
 
 header {
@@ -282,7 +282,7 @@ header {
 
 .conteiner {
   width: 40%;
-  background-image: linear-gradient(to left,aquamarine,#90e0ef);
+  background-color: aquamarine;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -393,39 +393,24 @@ header {
   width: 300%;
 }
 
-
-
 .sobreNosotros3 {
   display: flex;
   flex-direction: row;
   margin-top: 100px;
   justify-content: space-around;
   margin-top: 15%;
-  background-image: linear-gradient(to left,bisque, white );
+  background-color: bisque;
   padding: 5%;
 }
 
 .sobreNosotros3 img {
-  width: 113%;
+  width: 40%;
   border-radius: 4%;
-  padding: 14px;
-  border-radius: 9%;
 }
 
 .sobreNosotros3 iframe {
-  width: 92%;
-  border-radius: 9%;
-  padding: 13px;
-}
-
-.sobreNosotros3 p{
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 150%;
-}
-
-.sobreNosotrosArticle p{
-  margin-left: 13px;
+  width: 30%;
+  border-radius: 3%;
 }
 
 .sobreNosotros4 {
@@ -621,7 +606,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 20%;
-  background-image: linear-gradient(to left,#E2CEC8,white);
+  background-color: blanchedalmond;
   padding: 5%;
 }
 
@@ -961,4 +946,176 @@ header {
     margin-left: 35%;
   }
 }
+/*CODIGOS DE LA PAGINA LENGUA*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.lengua0 img {
+  margin-left: 30%;
+}
+.lengua0 img .lengua0 h2 {
+  text-align: center;
+  margin-top: 2%;
+}
+.lengua0 img .lengua0 h2 .lengua0 p {
+  text-align: center;
+}
+.lengua0 img .lengua0 h2 .lengua0 p .contenedorLengua {
+  background-color: #caf0f8;
+}
+
+.Lengua1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #e0e1dd;
+  padding: 10%;
+}
+.Lengua1 .Lengua1 img {
+  width: 40%;
+  height: 40%;
+}
+
+.listaLengua1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.listaLengua3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.language2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 250px;
+  background-color: azure;
+  padding: 10%;
+}
+.language2 .language2 iframe {
+  text-align: left;
+  margin-right: 10%;
+  justify-content: space-around;
+}
+.language2 .language2 iframe .language2 h2 {
+  margin-top: 5%;
+  margin-left: 7%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.language3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20%;
+  background-color: blanchedalmond;
+  padding: 5%;
+}
+.language3 .language3 p {
+  font-size: 200%;
+  margin-right: 15%;
+  font-family: "Times New Roman", Times, serif;
+}
+.language3 .language3 p .language3 img {
+  height: 30%;
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 30px;
+}
+
+.language4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20%;
+  background-color: #E2CEC8;
+  padding: 10%;
+}
+.language4 .language4 p {
+  font-size: 200%;
+  margin-left: 9%;
+  font-family: "Times New Roman", Times, serif;
+  padding: 3px;
+  margin-left: 10%;
+  text-shadow: 10px;
+}
+.language4 .language4 p .language4 img {
+  margin-right: 10%;
+}
+
+/*DATOS DE LA PAGINA SOBRE NOSOTROS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sobreNosotros2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  background-color: #caf0f8;
+}
+.sobreNosotros2 .sobreNosotros2 p {
+  background-color: none;
+  margin-top: 5%;
+  font-size: 150%;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 5%;
+}
+.sobreNosotros2 .sobreNosotros2 p .sobreNosotros2 img {
+  margin-right: 30px;
+  width: 300%;
+}
+
+.sobreNosotros3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-top: 15%;
+  background-image: linear-gradient(to left, bisque, white);
+  padding: 5%;
+}
+.sobreNosotros3 .sobreNosotros3 img {
+  width: 40%;
+  border-radius: 4%;
+}
+.sobreNosotros3 .sobreNosotros3 img .sobreNosotros3 iframe {
+  width: 30%;
+  border-radius: 3%;
+}
+
+.sobreNosotros4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7%;
+  background-color: cornsilk;
+  padding: 5%;
+}
+.sobreNosotros4 .sobreNosotros4 img {
+  width: 60%;
+  height: 60%;
+  border-radius: 20%;
+  margin-left: 20%;
+}
+.sobreNosotros4 .sobreNosotros4 img .sobreNosotros4 p {
+  text-align: center;
+  padding: 5px;
+  width: 50%;
+  font-size: 150%;
+  margin-left: 25%;
+  font-family: "Times New Roman", Times, serif;
+}
+.sobreNosotros4 .sobreNosotros4 img .sobreNosotros4 p .sobreNosotros4 h2 {
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -393,8 +393,6 @@ header {
   width: 300%;
 }
 
-
-
 .sobreNosotros3 {
   display: flex;
   flex-direction: row;
@@ -406,26 +404,13 @@ header {
 }
 
 .sobreNosotros3 img {
-  width: 113%;
+  width: 40%;
   border-radius: 4%;
-  padding: 14px;
-  border-radius: 9%;
 }
 
 .sobreNosotros3 iframe {
-  width: 92%;
-  border-radius: 9%;
-  padding: 13px;
-}
-
-.sobreNosotros3 p{
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 150%;
-}
-
-.sobreNosotrosArticle p{
-  margin-left: 13px;
+  width: 30%;
+  border-radius: 3%;
 }
 
 .sobreNosotros4 {

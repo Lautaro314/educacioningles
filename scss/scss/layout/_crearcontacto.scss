@@ -1,0 +1,29 @@
+/*CODIGOS DE LA PAGINA CREAR CONTACTO*/
+@import "../utilities/base";
+
+
+.formulario {
+    display: contents;
+    color: black;
+    flex-direction: column;
+    background-color:$colorfondo;
+}
+
+.conteiner {
+    width: 40%;
+    background-color: $colorfondoformulario;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    .conteiner form {
+        margin: auto;
+        .conteiner h2 {
+            margin-left: 15%;
+            margin-bottom: 2%;
+            color: black;
+            font-family: "Times New Roman", Times, serif;
+        }
+    }
+}
+
