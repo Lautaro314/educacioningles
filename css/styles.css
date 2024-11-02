@@ -124,8 +124,13 @@ header {
   flex-direction: row;
 }
 
-.english {
-  margin-top: 1%;
+.headerIndex{
+  background-color: #f8f9fa;
+}
+
+.headerIndex h1{
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 ul {
@@ -144,6 +149,7 @@ li {
 a {
   color: black;
   font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
 }
 
@@ -152,19 +158,49 @@ a {
 }
 
 .inicioIndex h2 {
-  color: black;
   text-align: center;
-  font-size: 300%;
+  font-size: 5rem;
+  color: #33D;
   background-color: aliceblue;
+  font-weight: bold;
+  text-shadow: 0 10px #359;
+  padding: 67px;
+  
+}
+
+@keyframes miprimeraanimación{
+  from{ 
+    transform: rotate(0deg);
+  }
+
+  to{
+    transform: rotate(360deg);
+  }
 }
 
 .inicioIndex img {
-  margin-left: 25%;
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 11%;
+  box-shadow: 0 12px 23px rgb(0, 0, 0, 0.3);
 }
 
 .colorh2 {
-  color: black;
-  margin-left: 12%;
+  color:#33D;
+  margin-left: 7%;
+  margin-top: 10%;
+  font-weight: bold;
+  text-shadow: 0 6px #359;
+  font-size: 3rem;
+}
+
+.lesson2 iframe{
+  box-shadow: 0 12px 23px rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.lesson2 img{
+  box-shadow: 0 12px 23px rgb(0, 0, 0, 0.3);
 }
 
 .lesson2 {
@@ -172,9 +208,89 @@ a {
   justify-content: space-around;
 }
 
+.sectionIndexSegundo h2{
+  text-align: center;
+  font-size: 4rem;
+  color: #33D;
+  background-color: aliceblue;
+  font-weight: bold;
+  text-shadow: 0 7px #359;
+  padding: 67px;
+  margin-top: 14%;
+}
+
+.sectionIndex2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: beige;
+  padding: 42px;
+  border-radius: 300px;
+  margin-top: 10%;
+}
+
+.sectionIndex2 img{
+  width: 26%;
+  height: 10%;
+  margin-right: 17%;
+  box-shadow: 0 12px 23px rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.sectionIndex2 p{
+  margin-left: 14%;
+  margin-right: 15%;
+  font-weight: bold;
+  text-shadow: 0 2px black;
+  font-size: 2rem;
+}
+
+.sectionIndexTercero h2{
+  text-align: center;
+  font-size: 4rem;
+  color: #33D;
+  background-color: aliceblue;
+  font-weight: bold;
+  text-shadow: 0 7px #359;
+  padding: 67px;
+  margin-top: 14%;
+}
+
+.sectionIndex3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: beige;
+  border-radius: 300px;
+  margin-top: 10%;
+  padding: 60px;
+}
+
+.sectionIndex3 img{
+  width: 42%;
+  height: 10%;
+  margin-right: 6%;
+  margin-left: 14%;
+  box-shadow: 0 12px 23px rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.sectionIndex3 p{
+  margin-right: 14%;
+  margin-left: 3%;
+  font-weight: bold;
+  text-shadow: 0 2px black;
+  font-size: 2rem;
+}
+
+.carousel-image{
+  width: 50%;
+}
+
 .footerInicio {
   background-color: white;
   border: none;
+  margin-top: 26%;
 }
 
 .redesSociales {
@@ -213,8 +329,25 @@ h3 {
   .navbar-brand {
     margin-right: 172px;
   }
-  .inicioIndex {
+  .inicioIndex{
     margin-top: 7%;
+  }
+  .inicioIndex h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #33D;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-shadow: 0 5px #359;
+    padding: 67px;
+  }
+  .colorh2{
+    color: #33D;
+    margin-left: 17%;
+    margin-top: 10%;
+    font-weight: bold;
+    text-shadow: 0 4px #359;
+    font-size: 2rem;
   }
   .inicioIndex img {
     height: 90%;
@@ -235,8 +368,95 @@ h3 {
     margin-left: 5px;
   }
   .lesson2 iframe {
-    height: -1%;
     width: 100%;
+  }
+  .sectionIndexSegundo h2{
+    text-align: center;
+    font-size: 4rem;
+    color: #33D;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-shadow: 0 7px #359;
+    padding: 67px;
+    margin-top: 14%;
+  }
+  .sectionIndex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: beige;
+    border-radius: 300px;
+    margin-top: 10%;
+  }
+  .sectionIndex2 img{
+    width: 79%;
+    height: 13%;
+    box-shadow: 0 12px 23px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 11%;
+    margin-bottom: 8%;
+  }
+  .sectionIndex2 p{
+    margin-left: 14%;
+    margin-right: 15%;
+    font-weight: bold;
+    text-shadow: 0 2px black;
+    font-size: 158%;
+    text-align: center;
+  }
+  .sectionIndexTercero h2{
+    text-align: center;
+    font-size: 4rem;
+    color: #33D;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-shadow: 0 7px #359;
+    padding: 67px;
+    margin-top: 14%;
+  }
+  .sectionIndex3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: beige;
+    border-radius: 300px;
+    margin-top: 10%;
+    padding: 60px;
+  }
+  .sectionIndex3 img{
+    width: 115%;
+    height: 11%;
+    margin-right: 6%;
+    margin-left: 14%;
+    box-shadow: 0 12px 23px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 18%;
+    margin-left: -7%;
+  }
+  .sectionIndex3 p{
+    margin-right: 14%;
+    margin-left: 19%;
+    font-weight: bold;
+    text-shadow: 0 2px black;
+    font-size: 157%;
+    text-align: center;
+  }
+  
+  .carousel-image{
+    width: 50%;
+  }
+  
+  .footerInicio {
+    background-color: white;
+    border: none;
+    margin-top: 26%;
+  }
+  
+  .redesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
   }
   .footerInicio {
     background-color: white;
@@ -261,12 +481,17 @@ header {
   height: 100px;
 }
 
+.headerCuenta{
+  background-color: #f8f9fa;
+}
+
 .headerCuenta h1 {
   margin-top: 1%;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .conteinerCrearcuenta {
-  background-color: white;
+  background-color: #f8f9fa;
 }
 
 .conteinerCrearcuenta nav {
@@ -322,7 +547,7 @@ header {
   .headerCuenta {
     flex-direction: column;
     height: 10%;
-    text-align: center;
+    text-align: center; ;
   }
   .headerCuenta img {
     height: 30%;
@@ -364,6 +589,14 @@ header {
   flex-direction: row;
 }
 
+.conteinerCrearcuenta{
+  background-color: #f8f9fa;
+}
+
+.sobreNosotros1{
+  background-color: #f8f9fa;
+}
+
 .sorbrenosotros1 img {
   margin-right: 30px;
   width: 300%;
@@ -371,6 +604,7 @@ header {
 
 .sobreNosotros1 h1 {
   margin-top: 1%;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .sobreNosotros2 {
@@ -392,9 +626,6 @@ header {
   margin-right: 30px;
   width: 300%;
 }
-
-
-
 .sobreNosotros3 {
   display: flex;
   flex-direction: row;
@@ -422,10 +653,11 @@ header {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 150%;
+  margin-right: 10%;
 }
 
 .sobreNosotrosArticle p{
-  margin-left: 13px;
+  margin-left: 25%;
 }
 
 .sobreNosotros4 {
@@ -437,20 +669,28 @@ header {
   padding: 5%;
 }
 
+.sobreNosotros4 h2{
+  text-align: center;
+  font-size: 3rem;
+  color: #33D;
+  font-weight: bold;
+  text-shadow: 0 6px #359;
+  padding: 67px;
+}
+
 .sobreNosotros4 img {
-  width: 60%;
-  height: 60%;
+  width: 102%;
+  height: 42%;
   border-radius: 20%;
-  margin-left: 20%;
+  padding: 4%;
 }
 
 .sobreNosotros4 p {
-  text-align: center;
-  padding: 5px;
-  width: 50%;
-  font-size: 150%;
-  margin-left: 25%;
   font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 1px black;
+  font-size: 2rem;
+  text-align: center;
+  padding: 9%;
 }
 
 .sobreNosotros4 h2 {
@@ -548,8 +788,13 @@ header {
   background-color: white;
 }
 
+.headerLengua{
+  background-color: #f8f9fa;
+}
+
 .headerLengua h1 {
   margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .lengua0 img {
@@ -557,12 +802,25 @@ header {
 }
 
 .lengua0 h2 {
-  text-align: center;
   margin-top: 2%;
+  text-align: center;
+  font-size: 4rem;
+  color: #33D;
+  background-color: aliceblue;
+  font-weight: bold;
+  text-shadow: 0 7px #359;
+  padding: 67px;
 }
 
 .lengua0 p {
+  margin-top: 2%;
   text-align: center;
+  font-size: 3rem;
+  color: #33D;
+  background-color: aliceblue;
+  font-weight: bold;
+  text-shadow: 0 4px #359;
+  padding: 67px;
 }
 
 .contenedorLengua {
@@ -703,6 +961,16 @@ header {
     display: flex;
     flex-direction: column;
   }
+  .lengua0 h2{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3rem;
+    color: #33D;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-shadow: 0 5px #359;
+    padding: 67px
+  }
   .lengua0 img {
     width: 60%;
     margin-left: 20%;
@@ -776,8 +1044,13 @@ header {
   flex-direction: row;
 }
 
+.headerFonologia {
+  background-color: #f8f9fa;
+}
+
 .headerFonologia h1 {
   margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .fonologia1 {
