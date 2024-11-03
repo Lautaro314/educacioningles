@@ -165,17 +165,6 @@ a {
   font-weight: bold;
   text-shadow: 0 10px #359;
   padding: 67px;
-  
-}
-
-@keyframes miprimeraanimación{
-  from{ 
-    transform: rotate(0deg);
-  }
-
-  to{
-    transform: rotate(360deg);
-  }
 }
 
 .inicioIndex img {
@@ -607,6 +596,17 @@ header {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.sobreNosotros h2{
+  margin-top: 2%;
+  text-align: center;
+  font-size: 5rem;
+  color: #33D;
+  background-color: aliceblue;
+  font-weight: bold;
+  text-shadow: 0 10px #359;
+  padding: 67px;
+}
+
 .sobreNosotros2 {
   display: flex;
   flex-direction: row;
@@ -639,12 +639,12 @@ header {
 .sobreNosotros3 img {
   width: 113%;
   border-radius: 4%;
-  padding: 14px;
+  padding: 13px;
   border-radius: 9%;
 }
 
 .sobreNosotros3 iframe {
-  width: 92%;
+  width: 99%;
   border-radius: 9%;
   padding: 13px;
 }
@@ -653,7 +653,6 @@ header {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 150%;
-  margin-right: 10%;
 }
 
 .sobreNosotrosArticle p{
@@ -715,6 +714,13 @@ header {
   width: 6%;
 }
 
+.sobreNosotrosArticle p{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 150%;
+  margin-right: 9%;
+}
+
 /*Mediaquerie Sobre nosotros*/
 @media (max-width: 992px) {
   .sobreNosotros1 {
@@ -731,6 +737,16 @@ header {
     display: flex;
     flex-direction: column;
     padding-left: 0%;
+  }
+  .sobreNosotros h2{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3rem;
+    color: #33D;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-shadow: 0 5px #359;
+    padding: 67px;
   }
   .sobreNosotros2 {
     display: flex;
@@ -750,6 +766,11 @@ header {
   .sobreNosotros3 iframe {
     width: 100%;
   }
+  .sobreNosotros3 p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+  }
   .sobreNosotros3 img {
     margin-top: 7%;
     width: 100%;
@@ -758,10 +779,17 @@ header {
     display: flex;
     flex-direction: column;
   }
+  .sobreNosotros4 h2{
+    font-size: 3rem;
+    color: #33D;
+    font-weight: bold;
+    text-shadow: 0 6px #359;
+    padding: 57px;
+  }
+  
   .sobrenosotrosArticle img {
-    width: 90%;
+    width: 101%;
     height: 60%;
-    margin-left: 5%;
   }
   .footerSobrenosotros {
     flex-direction: column;
@@ -778,6 +806,13 @@ header {
     width: 30%;
     height: 30%;
     margin-left: 35%;
+  }
+  .sobreNosotrosArticle p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 /*LENGUA*/
@@ -1053,6 +1088,17 @@ header {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.fonologia h2{
+  margin-top: 2%;
+  text-align: center;
+  font-size: 6rem;
+  color: #33D;
+  background-color: aliceblue;
+  font-weight: bold;
+  text-shadow: 0 12px #359;
+  padding: 67px;
+}
+
 .fonologia1 {
   display: flex;
   flex-direction: row;
@@ -1166,6 +1212,16 @@ header {
     display: flex;
     flex-direction: column;
     padding-left: 0%;
+  }
+  .fonologia h2{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3rem;
+    color: #33D;
+    background-color: aliceblue;
+    font-weight: bold;
+    text-shadow: 0 5px #359;
+    padding: 67px;
   }
   .fonologia1 {
     display: flex;
